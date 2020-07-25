@@ -8,7 +8,7 @@ class Intro extends StatelessWidget {
       body: Center(
         child: FlatButton(
           child: Text("Home"),
-          onPressed: () => OneContext().pushReplacementNamed("/home"),
+          onPressed: () => OneContext().pushNamedAndRemoveUntil("/home", (route) => false),
         ),
       ),
     );
