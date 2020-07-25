@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    ".dart_tool": true,
+    ".idea": true,
+    ".vscode": true,
+    ".gitignore": true,
+    ".metadata": true,
+    ".packages": true,
+    "foopes.iml": true,
+    "pubspec.lock": true,
+    "android": true,
+    "ios": true
+  }
+}
