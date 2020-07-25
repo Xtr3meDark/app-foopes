@@ -9,6 +9,8 @@
     "foopes.iml": true,
     "pubspec.lock": true,
     "android": true,
-    "ios": true
+    "ios": true,
+    ".flutter-plugins": true,
+    ".flutter-plugins-dependencies": true
   }
 }
