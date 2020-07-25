@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:flare_splash_screen/flare_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:one_context/one_context.dart';
 
@@ -29,6 +28,7 @@ class _RouterState extends State<Router> {
           isLoading = false;
         });
     });
+    OneContext().pushNamed("/intro");
   }
 
   @override
@@ -41,6 +41,8 @@ class _RouterState extends State<Router> {
   Widget build(BuildContext context) {
     return Material(
       color: Colored.black,
+      child: Container(),
+      /*
       child: SplashScreen.callback(
         isLoading: isLoading,
         name: 'lib/assets/intro.flr',
@@ -53,6 +55,7 @@ class _RouterState extends State<Router> {
         onError: null,
         startAnimation: 'splash',
       ),
+      */
     );
   }
 }
